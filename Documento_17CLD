@@ -1,0 +1,557 @@
+dados estruturados=quantitativos e qualitativos(chamado de métricos ou categóricos)
+
+dados não estruturados = fotos, videos
+
+Próxima aula verificar quais tipos de dados podemos ter quantitativos e qualitativos
+
+ex:
+
+	Tarefas analiticas
+		1 - Sumarizar, classificar, segmentar, estimação, previsão, recomendação
+
+			ex: festa
+				estava cheio(muita gente) - sumarização
+				qualidade do som(tipo do som) - classificação
+				ambiente bom	- classificação
+				bastante bebida - sumarização/classificação
+				homens e mulheres(grupos) - segmentação
+				vou ficar ate amanhecer - estimação
+				chance diversas não - previsão
+				
+
+Media = traz o dado para baixo
+Mediana = equaliza quantidade em 50% 
+
+supervisionado = supervisão do modelo criado
+
+não supervisionado = não tem variável alvo trabalha entendo a estrutura dos dados ( redução de dimensionalidade( componete trabalha no contexto de diminuir o tamanho de dimensão de valores) e outra ( segmentação tecinca kmeds, koronei, 2 steps, detecção de anomalias )
+
+IBM SPSS modeler
+
+**********************************************************************************************************************************************************
+11/04/2018
+
+https://datascience.ibm.com/
+
+Acesso
+
+Dados estruturados BD Relacional( tabelado,tabulado e etc)
+
+Não estruturados Não precisa definir tipo de variável como no BD relacional 
+
+Qualitativa nominal(alto, baixo) e ordinal(1,2 ,3 ,4 )
+
+Quantitativa continuas(1,789 ex float) e discretas(0,1,2 ex int)
+
+kmedia baseado no calculo dist euclidiana de um ponto outro a outro.
+
+normalização de dados mais comum z-Score
+
+z=x-media / 
+
+X=10
+X1=20
+X2=30
+
+x=60/3 = 20
+
+z30-20 / 30-10 = 10/20 = 0,5
+
+dendograma ( analise de distancia)
+
+MLP 
+
+Rede Neral Kohonen
+
+yolo 
+
+lib CuDA nvidia
+lib opencv lib para reconhecimento facial
+
+
+Técnica de two-sep ( arvore de decisão)
+
+Detecção de Anomalia(distancia euclidiana)
+
+Algoritmo
+kmedia  = metrica
+kohonen = métrica e quântica 
+twostep = 
+Anomalia = 
+
+
+
+**********************************************************************************************************************************************************
+16/04/2018
+
+Trabalho: entrega prazo de dias
+
+- selecionar uma base de dados no max 1000 linhas poucas variáveis, 5 variáveis, português 
+- escolher uma tarefa analítica, 
+							sumarização - Pre-Req
+							segmentação (ex, media, grafico)
+							classificação
+							estimação
+							previsão NAO
+- criar um modelo 
+				R, PY, Modeler, Orange
+
+
+Enviar o arquivo base csv e o arquivo do modelo
+
+2 slides de conclusão 
+	- apresenta a base
+	- tarefa técnica e resultado 
+
+
+lib pandas usada para estruturar os dados(coloca os dados em estrutura de analise)
+
+lib numpy operações logicas e matemáticas(formato e operações)
+
+Se possível achar os pdfs das libs na pasta literatura opcional
+
+libs analise gráfica mescla lib grafica matplotlib, seaborn,  pixiedust(com as outras)
+
+Variação de correlação -1 0 1
+
+Variável forte para correlação 0,7 ou -0,7
+
+Grafico boxplot, usado para achar outlayer
+
+
+
+ANOVA: F= 67.95406500780399 , P = 3.3945443577151245e-23
+
+F > próximo do 0 fraco, 
+P > que 0005 bom
+
+
+lib scikit-learn com todas técnicas de machine learn
+
+
+
+
+
+
+**********************************************************************************************************************************************************
+18/04/2018
+
+https://www.vivaolinux.com.br//Update-no-ip-utilizando-Shell-
+
+https://github.com/drivard/update-noip/blob/master/update_noip.py
+
+https://github.com/kelvinss/no-ip-updater/blob/master/auto-update-no-ip
+
+https://blog.hostonnet.com/python--to-update-noip-com
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************************************
+
+19/01/2018
+
+Fluxo de Caixa
+
+Regras de Ouro
+
+Todos os custos de despesas operacionais da DRRdo período 1 serão pagos no fluxo de caixa do período 2
+
+Não alterar a aba DRE
+
+
+
+
+
+**********************************************************************************************************************************************************
+Modelos de cloud computing
+
+28/06/2018
+
+bluebox
+bluemix
+softlayer
+
+
+multicloud dedalus
+
+
+{
+
+IAAS - Jornada para nuvem
+
+Estagio 0 
+		 - Alta complexidade
+		 - Baixa eficiência
+		 - TI Operacional		
+
+
+		 Estagio 1 -  ( padronização e consolidação ) maturidade não consolidação de hardware 
+		 
+		Estagio 2 - virtualização / conteinerização ( Compute / Network / Storage )
+		
+		Estagio 3 - Automação / Orquestração 
+
+		Estagio 4 - portal de auto atendimento
+
+}
+
+
+Opencompute.org
+
+Open sds storage
+
+
+Aula de arquitetura de Datacent
+
+Como definir na hora de usar capex ou opex, verificar se a empresa é geradora de caixa usar capex, caso a empresa não gere caixa ou não tem dimdim em caixa uma opção seria usar o opex
+
+lei de moore diz que a cada 2 anos o numero de transistores dobra
+
+
+Computação e Storage é chamado de convergencia + network chamado de hiperconvergencia
+
+FAANG market velho, pesquisa
+
+TCO, custo total dono
+
+https://learn.openshift.com
+
+https://mesosphere.com/
+
+https://paasfinder.org/filter
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+IoT
+
+Engie
+
+Protocolo MQTT
+
+Push Notification 
+
+SNS
+FCM
+
+PAHO mqtt
+Mosquito ( broker uma das funcionalidades )
+
+
+iot.eclipse.org
+
+
+AWS IOT ( Collect )
+KINESIS STREAM ( Ingestor )
+LAMBDA ( Transformation & RULE )
+DyNAMOBD ( Storage )
+
+# software para interface web
+
+nodejs ( https://nodejs.org/en/) 
+node-red ( precisa do node instalado )
+mosquito
+
+
+http://blogmasterwalkershop.com.br/
+
+https://www.filipeflop.com/categoria/arduino/
+
+visual studio code
+
+postman chrome 
+
+
+http://johnny-five.io/examples/led-pulse/
+
+
+iot.eclipse.org
+
+https://console.firebase.google.com
+
+
+#NODEMCU
+https://www.robocore.net/tutoriais/como-programar-nodemcu-arduino-ide.html
+https://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
+
+
+https://www.youtube.com/watch?v=wuNsnbkj9nk
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Arquitetura de network e roteamento
+
+Calculo para largura de banda, exemplo 10mbps
+
+Conservador  => Somatória dos pontos remotos, ex posso vender 10 pontos de 1mbps
+
+Moderado = > Somatória dos pontos remotos * 0,75
+
+Agressivo => Somatório pontos remotos * 0,5
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+swaggerhub
+
+apigee para publicar a API
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+OSPF = IGP, Link State  - >Protocolo interno ( Não divulga a rede ) fala so no loopback de backbone para backbone
+BGP = EGP, Path Vector -> Protocolo externo
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Aula de segurança
+
+
+Senha do pdf APOSTILA 17CLD - SEGURANCA EM CLOUD - PROF RICARDO GIORGI V1.6.PDF 14,5 MB - 10/11/2018
+
+@g0r@ eh 0utr@-17CLD
+
+
+http://www.norse-corp.com/map/
+
+#procurar paginas com falha de sql para  invaao via sql inject
+
+inurl:index.php?id=
+
+
+
+Colocar uma ' no final 
+
+colocar no google, esse cara procura todos os sites subdominio nao os www
+
+site:stf.jus.br -site:www.stf.jus.br
+
+fileype:inc intext:mysql_connect site:br
+
+
+netdiscover -i -r eth0 192.168.158.128/24
+
+nc -vvn -z 192.168.158.129 20-30
+
+descobrir o nome do servidor
+
+nc -vv 192.168.158.129 80 # depois de conectar escrever GET / HTTP/1.1
+
+echo -en "GET / HTTP/1.0\n\n\n"|nc 192.168.158.129 80 |grep Server
+
+nc -lvp 9432 # deixar uma porta aperta
+netstat -nat # valida que a porta esta aberta
+
+nc 127.0.0.1 9432
+
+para abrir o arquivo 
+
+rodar o comando notepad.exe sim.txt:nao.txt
+
+
+https://su.org/
+
+
+https://informationisbeautiful.net
+
+
+MPT9
+
+treinamento@rtgc.com.br - > Suzana
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+AWS
+AZURE > Azure stack = cloud privada
+Google
+IBM/Softlayer
+Oracle
+HPE
+
+Metricly = software para analisar ambiente AWS para baixar custo
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Hitachi
+
+https://knowledge.hitachivantara.com/Documents/Management_Software/Configuration_Manager_REST_API
+
+
+
+https://knowledge.hitachivantara.com/Documents/Management_Software/Configuration_Manager_REST_API/8.6.2/Get_started/01_System_configuration_of_the_REST_API
+
+https://knowledge.hitachivantara.com/Documents/Management_Software/Infrastructure_Analytics_Advisor/4.1.0/Troubleshooting_performance_problems_in_your_monitored_environment/Configure_storage_I%2F%2FO_controls_with_Hitachi_Automation_Director
+
+Hitachi Command Suite
+Configuration Manager
+REST API Reference Guide
+
+
+
+Important: The combination of REST API version 8.4.1 or later and
+Hitachi Command Suite version 8.4.0 or earlier is not supported. If you
+installed only the REST API first, do not install Hitachi Command Suite
+version 8.4.0 or earlier on the same management server.
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Labs Cloud
+
+labs.hol.vmware.com
+
+microsoft hands-on labs - > https://www.microsoft.com/handsonlabs
+
+cisco cloud center -> cisco dcloud
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Como implementar uma cloud hibrida utilizando as tecnologias aprendidas 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Aula de AWS
+
+Maquinas do tipo spot menor custo comparado com EC2
+
+Projeto firecracker
+
+https://github.com/firecracker-microvm/firecracker
+
+
+Serviço "Placement group" tenta diminuir a latência entre as maquinas virtuais, não tem custo adicional para uso desse recurso
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ORQUESTRAÇÃO E DEVOPS
+
+
+APM sofware para verificar perfomance API
+
+Cofre de senha 
+https://www.vaultproject.io/downloads.html
+
+Jenkins
+https://www.edureka.co/blog/jenkins-pipeline-tutorial-continuous-delivery
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Openstack
+
+Oversubs
+Cpu
+Padrão openstack é 1:16 vcpus
+ex: 32 cores = 320 vcpus
+
+Mem
+boa pratica 1:1.5
+Não da para fazer um oversubscrition 
+
+Storage 
+thin
+thick
+
+Rede
+Trafego E - W, entre VMs
+Trafego N - S, para internet
+É possivel fazer oversubs de banda
+
+
+Infra As a Code, descrever tudo em um arquivo yml, com a quantida de CPU, Mem e etc
+
+
+Documentação oficial do OpenStack: https://docs.openstack.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
